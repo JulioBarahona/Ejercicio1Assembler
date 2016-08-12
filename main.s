@@ -13,8 +13,10 @@ main:
 
 
 .data
+@----------------------------------------------------------------------------
+@							 Capacidad de vehiculos
+@----------------------------------------------------------------------------
 
-@@ Capacidad en Galones de ambos carros
 .global tanqueA
 tanqueA:
 	.asciz "   "
@@ -23,27 +25,34 @@ tanqueA:
 tanqueB:
 	.asciz "   "
 
+@----------------------------------------------------------------------------
+@	 							Megametraje inicial 
+@----------------------------------------------------------------------------
 
-@@ Kilometraje inicial de ambos carros
-.global megakilometrosinicialA
-megakilometrosinicialA:
+.global megametrosinicialA
+megametrosinicialA:
 	.asciz "   "
 
 
-.global megakilometrosinicialB
-megakilometrosinicialB:
+.global megametrosinicialB
+megametrosinicialB:
 	.asciz "   "
 
-@@ Kilometraje final de ambos carros
-.global megakilometrosfinalA
-megakilometrosfinalA:
+@----------------------------------------------------------------------------
+@	 							Megametraje final 
+@----------------------------------------------------------------------------
+
+.global megametrosfinalA
+megametrosfinalA:
 	.asciz "   "
 
-.global megakilometrosfinalA
-megakilometrosfinalA:
+.global megametrosfinalB
+megametrosfinalB:
 	.asciz "   "
 
-@@ Mensages e instrucciones
+@----------------------------------------------------------------------------
+@	 							Mensajes para usuario
+@----------------------------------------------------------------------------
 .global IngresoGalones 
 IngresoGalones:
 	.asciz "Ingrese la capacidad en Galones de los carros A y B\n"
