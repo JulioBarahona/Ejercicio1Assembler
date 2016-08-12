@@ -8,15 +8,9 @@
 
 main:
 
-@@ Lee los valores de los carros
-	MOV R7, #3		@3=llamado a "read" swi
-	MOV R0, #0		@0=stdout (teclado)
-	MOV R2, #11		@longitud de la cadena: 10 caracteres
-  	LDR R1, =string	@apunta a la variable donde se guarda
-  	SWI 0
+	@@ Se llama a la subrutina de pedir datos assignar valores
+	@@@@@@@@@@@@@ FINISH
 
-	mov r7, #1	@r7=1 salida 
-	swi 0
 
 .data
 
